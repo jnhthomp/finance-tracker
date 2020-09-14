@@ -1,24 +1,41 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requirements
+  - Authentication System
+    * sign up
+    * edit profile
+    * Login/Logout
 
-Things you may want to cover:
+  - Track Stocks
+    * 10 per user
+    * profile displays stocks and current price
 
-* Ruby version
+  - Seach for stocks
+    * add and remove stocks from portfolio
 
-* System dependencies
+  - Look for Friends
+    * can search by name or email
 
-* Configuration
+  - View friends profile
+    * contains friends portfolio of stocks
 
-* Database creation
+  - Mobile friendly
 
-* Database initialization
+  - Requires fast development
 
-* How to run the test suite
+  - Styling not important but must be presentable
 
-* Services (job queues, cache servers, search engines, etc.)
+  - No test framework required since it is a prototype
+    * aim is to get the product up and running for display
 
-* Deployment instructions
+  - Core functionality, time, and presentation are key factors
 
-* ...
+
+What will we learn?
+  - Rapid prototyping with rails 'magic'
+
+  - Make use of out of the box tools like bootstrap and template generators
+
+  - How to use generators to build features and then tailor them as needed
+
+  - Install configure and customize 3rd party gems/tools like devise for authentication
