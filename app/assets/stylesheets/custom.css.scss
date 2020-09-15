@@ -1,0 +1,148 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+// General
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  color: #bcbfc1;
+}
+
+h2 {
+  color: #bcbfc1;
+}
+
+.link,
+.link:hover {
+  color: #bcbfc1;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: #1b2327;
+}
+
+.admin-title{
+  color: #418e86;
+}
+// End General
+
+
+
+// Navbar 
+#nav-search{
+  background-color: #1b2327;
+  border-color: #1f292e;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #418e86 !important;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: #1f292e !important;
+}
+
+.nav-link {
+  color: #bcbfc1 !important;
+}
+
+.dropdown-menu {
+  background-color: #1f292e !important;
+}
+
+.dropdown-item{
+  color:  #bcbfc1 !important;
+}
+
+.dropdown-item:hover{
+  background-color: #27333a !important;
+  color: #418e86 !important;
+}
+
+.dropdown-divider{
+  color:  #418e86 !important;
+}
+
+// End Navbar
+
+
+
+// Flash Messages
+.alert-danger {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+}
+
+.alert-success {
+  background-color: #418e86;
+  border: none;
+  color:  white;
+}
+
+// End Flash Messages
+
+
+
+// Footer
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #1f292e !important;
+}
+
+// End Footer
+
+
+
+// Buttons
+#btn-submit-form {
+  margin-right: 20px;
+}
+
+#btn-cancel-form {
+  margin-left: 20px;
+}
+
+#show-btn-delete {
+  margin-left: 1.80em;
+}
+
+.btn-primary {
+  background-color: #6f4fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #7e4fff;
+}
+
+.btn-outline-success {
+  background-color: #418e86 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #37988e !important;
+  border: none;
+}
+
+.btn-success {
+  background-color: #418e86 !important;
+  border: none;
+}
+
+.btn-success:hover{
+  background-color: #37988e !important;
+  border: none;
+}
+
+// End buttons
