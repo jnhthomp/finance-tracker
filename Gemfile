@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 # Boostrap styling for devise views
 gem 'devise-bootstrap-views', '~> 1.0'
+# Help connect with IEX api to fetch stock data
+gem 'iex-ruby-client'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
