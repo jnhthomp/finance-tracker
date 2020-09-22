@@ -6,6 +6,12 @@ body {
   height: 100%;
 }
 
+body.d-flex.flex-column {
+  background-color: #1b2327;
+  color: #ffffff;
+
+}
+
 h1 {
   color: #bcbfc1;
 }
@@ -27,6 +33,14 @@ h2 {
 .admin-title{
   color: #418e86;
 }
+
+.site-link {
+  color: #418e86;
+}
+
+.site-link:hover {
+  color: #37988e;
+}
 // End General
 
 
@@ -39,10 +53,10 @@ h2 {
 
 #logo {
   float: left;
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #418e86 !important;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: -0.05em;
   font-weight: bold;
 }
 
@@ -115,6 +129,11 @@ h2 {
   margin-left: 1.80em;
 }
 
+.btn{
+  border: none;
+  transition: none;
+}
+
 .btn-primary {
   background-color: #6f4fff;
   border: none;
@@ -137,6 +156,7 @@ h2 {
 
 .btn-success {
   background-color: #418e86 !important;
+  border-color: #418e86 !important;
   border: none;
 }
 
@@ -146,3 +166,17 @@ h2 {
 }
 
 // End buttons
+
+
+
+// Forms
+
+.form-input, 
+.form-input:active,
+.form-input:focus {
+  background-color: #27333a !important;
+  color: #bcbfc1 !important;
+  border: none !important;
+}
+
+// End Forms
