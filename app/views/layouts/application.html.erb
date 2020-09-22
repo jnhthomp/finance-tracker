@@ -12,8 +12,7 @@
   <body class="d-flex flex-column">
     <%= render 'layouts/navigation' %>
     <div class="container" id="page-content">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+      <%= render 'layouts/messages' %>
       <%= yield %>
     </div>
   </body>

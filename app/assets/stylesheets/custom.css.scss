@@ -91,15 +91,19 @@ h2 {
 
 // Flash Messages
 .alert-danger {
-  background-color: #dc3545;
-  border: none;
-  color: white;
+  background-color: #dc3545 !important;
+  border: none !important;
+  color: #ffffff !important;
 }
 
 .alert-success {
-  background-color: #418e86;
-  border: none;
-  color:  white;
+  background-color: #418e86 !important;
+  border: none !important;
+  color:  #ffffff !important;
+}
+
+.msg-btn:hover,.close {
+  color: #ffffff !important;
 }
 
 // End Flash Messages
