@@ -51,6 +51,13 @@ h2 {
   border-color: #1f292e;
 }
 
+.search-field {
+  background-color: #1b2327 !important;
+  border-color: #1f292e !important;
+  border-width: 5px !important;
+  color: #ffffff !important;
+}
+
 #logo {
   float: left;
   font-size: 1.5em;
@@ -134,7 +141,7 @@ h2 {
 }
 
 .btn{
-  border: none;
+  border: none !important;
   transition: none;
 }
 
@@ -143,7 +150,8 @@ h2 {
   border: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primar:focus {
   background-color: #7e4fff;
 }
 
@@ -153,20 +161,22 @@ h2 {
   color: white !important;
 }
 
-.btn-outline-success:hover {
+.btn-outline-success:hover,
+.btn-outline-success:focus {
   background-color: #37988e !important;
-  border: none;
+  border: none !important;
 }
 
 .btn-success {
   background-color: #418e86 !important;
   border-color: #418e86 !important;
-  border: none;
+  border: none !important;
 }
 
-.btn-success:hover{
+.btn-success:hover,
+.btn-success:focus {
   background-color: #37988e !important;
-  border: none;
+  border: none !important;
 }
 
 // End buttons
@@ -184,3 +194,20 @@ h2 {
 }
 
 // End Forms
+
+
+
+// Stocks Search Area
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0px !important;
+}
+
+.no-left-padding {
+  padding-left: 0px !important;
+}
+
+// End Stocks Search Area
