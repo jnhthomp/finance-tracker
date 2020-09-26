@@ -151,8 +151,11 @@ h2 {
 }
 
 .btn-primary:hover,
-.btn-primar:focus {
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #7e4fff;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .btn-outline-success {
@@ -162,9 +165,11 @@ h2 {
 }
 
 .btn-outline-success:hover,
-.btn-outline-success:focus {
+.btn-outline-success:focus,
+.btn-outline-success:active {
   background-color: #37988e !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 .btn-success {
@@ -174,9 +179,11 @@ h2 {
 }
 
 .btn-success:hover,
-.btn-success:focus {
+.btn-success:focus,
+.btn-success:active {
   background-color: #37988e !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 // End buttons
