@@ -12,7 +12,11 @@
   <body class="d-flex flex-column">
     <%= render 'layouts/navigation' %>
     <div class="container" id="page-content">
-      <%= render 'layouts/messages' %>
+      <div class="container">
+        <div class="row justify-content-center">
+          <%= render 'layouts/messages' %>
+        </div>
+      </div>
       <%= yield %>
     </div>
   </body>
