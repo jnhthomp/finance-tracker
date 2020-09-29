@@ -67,16 +67,28 @@ h2 {
   font-weight: bold;
 }
 
-#nav-name {
-  color: #418e86;
-}
-
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
   background-color: #1f292e !important;
 }
 
 .nav-link {
   color: #bcbfc1 !important;
+  text-align: center !important;
+}
+
+.nav-link:hover{
+  color:  #418e86 !important;
+  background-color:  #1b2327 !important;
+}
+
+#nav-logout{
+  color: #bcbfc1 !important;
+  text-align: center !important;
+}
+
+#nav-logout:hover{
+  color: #dc3545 !important;
+  background-color: #1b2327 !important;
 }
 
 .dropdown-menu {
@@ -88,7 +100,7 @@ h2 {
 }
 
 .dropdown-item:hover{
-  background-color: #27333a !important;
+  // background-color: #27333a !important;
   color: #418e86 !important;
 }
 
