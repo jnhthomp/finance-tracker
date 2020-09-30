@@ -14,7 +14,11 @@
             <td><strong>Email </strong> <%= friend.email %></td>
             <td>
               <%= link_to "View profile", "#", class: "btn btn-primary" %>
-              <%= link_to 'Follow Friend', '#', class: "btn btn-success", method: :post %>
+              <% if current_user.not_friends_with?(friend.id) %>
+                <%= link_to 'Follow Friend', '#', class: "btn btn-success", method: :post %>
+              <% else %>
+                <span class="btn btn-success disabled" >Friend added</span>
+              <% end %>
             </td>
           </tr>
         <% end %>
