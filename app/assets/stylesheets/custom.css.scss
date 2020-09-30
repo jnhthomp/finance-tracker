@@ -162,14 +162,14 @@ h2 {
 }
 
 .btn-primary {
-  background-color: #6f4fff;
+  background-color: #6f4fff !important;
   border: none;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #7e4fff;
+  background-color: #7e4fff !important;
   border: none !important;
   box-shadow: none !important;
 }
