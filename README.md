@@ -3,6 +3,8 @@
 This application only allows users that have signed up for an account to access the site. Upon account creation users can search for stocks by ticker symbol and add them to their profile.
 Users can also search for other users and follow and view their profiles.
 
+<a href="https://finance-tracker-jt.herokuapp.com/">Live Demo!</a>
+
 <!-- Project gif -->
 <a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1C4T0pBktkNBrIcDujDKFfEvV_sSxNXkz" alt="Stalks demo gif" width="100%" height="auto" /> </a> 
 
